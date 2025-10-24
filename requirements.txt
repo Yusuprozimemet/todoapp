@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
