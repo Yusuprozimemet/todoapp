@@ -6,4 +6,7 @@ aiosqlite
 fastapi
 uvicorn
 sqlalchemy
-aiosqlite
+
+
+pydantic
+pydantic[email]
