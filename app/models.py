@@ -6,6 +6,7 @@ from .database import Base
 
 class Task(Base):
     __tablename__ = "tasks"
+    owner_id = Column(Integer, nullable=False)
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, index=True)
     description = Column(String, nullable=True)

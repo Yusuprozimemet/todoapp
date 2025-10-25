@@ -1,12 +1,18 @@
+
+
 fastapi
 uvicorn
 sqlalchemy
 aiosqlite
 
-fastapi
-uvicorn
-sqlalchemy
-
-
-pydantic
 pydantic[email]
+
+bcrypt==4.0.1 # For password hashing
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+
+
+pytest
+httpx
+pytest-asyncio
