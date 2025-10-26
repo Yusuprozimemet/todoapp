@@ -102,15 +102,3 @@ The test suite exercises registration, login, task create/read/update/delete and
 - Add pagination on `GET /tasks` for large datasets.
 - Add rate limiting and more robust token revocation/refresh logic for production.
 
-## How this README was generated
-
-This README summarizes the current repository structure and behavior found in `app/` and `tests/`. If you want, I can also:
-
-- add environment config using `pydantic` settings and update `auth.py` to read from env
-- add a small `.env.example` and a short Makefile or PowerShell `ps1` script for common dev commands
-- wire Alembic for migrations
-
----
-
-If you want me to commit additional improvements (config, env handling, or CI), tell me which one to do next.
-# todoapp
